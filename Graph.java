@@ -109,7 +109,7 @@ public void deleteTown(int town){
 	graph.addEdge(7,0);
 	graph.displayGraph();
         graph.deleteTown(1);
-       //graph.displayGraph();
+       graph.displayGraph();
        
        graph.insertTown(9, 3);
        graph.addEdge(9, 0);
